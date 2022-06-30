@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
+import { Injectable } from '@angular/core';
 
-
-/// the ingectable below may need to be moved
+/// the injectable below may need to be moved
 
 @Injectable({ providedIn: "root" })
 export class WeatherService {
